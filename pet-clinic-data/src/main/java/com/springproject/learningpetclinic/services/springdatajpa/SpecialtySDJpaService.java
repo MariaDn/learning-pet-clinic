@@ -19,7 +19,6 @@ public class SpecialtySDJpaService implements SpecialtyService {
         this.specialtyRepository = specialtyRepository;
     }
 
-
     @Override
     public Set<Speciality> findAll() {
         Set<Speciality> specialities = new HashSet<>();
